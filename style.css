@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.insta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.data{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
+
+}
+h5{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+ h6{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#grid {
+    width: 800px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 25px;
+
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  #grid img{
+    width: 230px;
+    height: 200px;
+    border: 2px solid black;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    padding: 8px;
+    
+  }
+
+  #loadMoreBtn{
+   width: 120px;
+   height: 40px;
+   background-color: #3897f0;
+   color: white;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   font-size: 20px;
+  }
+  .btn{
+    text-align: center;
+    padding: 35px;
+
+
+  }
+
+
+ h1{
+    text-align: center;
+    color: white;
+   
+ }
+
+.btn{
+    text-align: center;
+}
+ 
+header {    
+    background-color: #3897f0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+#profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid red;
+}
+.story{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+.stories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.stories img{
+
+  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid red;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: white;
+}
+
+
+
+.post img {
+    width: 350px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.home img{
+    width: 50px;
+}
+#prof img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+.logo img{
+    width: 200px;
+}
